@@ -1,0 +1,100 @@
+body{
+    background-color: black;
+    color: white;
+}
+.lightBody{
+    background-color: white;
+    color: black;
+}
+
+.card{
+    background: linear-gradient(to left , #ddd  ,rgb(207, 207, 207) , #ddd);
+    
+}
+.cardLight{
+    background: linear-gradient(to left , rgb(0, 0, 0)  ,rgb(95, 94, 94),rgb(95, 94, 94) , rgb(0, 0, 0));
+}
+
+.card label{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+.cardLabelLight{
+    font-size: 25px;
+    color: white !important;
+    font-weight: bold;
+}
+
+.card .form-control{
+    font-size: 22px;
+    font-weight: 500;
+    color: black;
+}
+
+ .btnn{
+    padding: 8px 20px !important;
+    font-size: 20px ;
+    font-weight: 500;
+}
+
+.allTasks{
+    font-size: 23px;
+    font-weight: 400;
+    color: black;
+    height: auto !important;
+}
+
+.titleChangeh{
+    color: black;
+}
+
+.none{
+    display: none;
+}
+
+.block{
+    display: block;
+}
+
+.validtionMessage{
+    font-weight: 500;
+    font-size: 30px;
+    padding: 15px 0px;
+    width: 30%;
+    margin: auto;
+}
+
+.margin{
+    margin-left: 12px;
+}
+
+.lightBtn{
+    padding: 10px 20px  !important;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 3px;
+}
+
+.darkBtn{
+    background-color: black;
+    color: white;
+    padding: 10px 20px  !important;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 3px;
+}
+
+@media(max-width:767px){
+    .validtionMessage {
+        font-size: 20px;
+        padding: 10px 0px;
+        width: 95%;
+        margin: auto;
+    }
+
+    .allTasks{
+        font-size: 20px;
+        height: 120px !important;
+    }
+}
